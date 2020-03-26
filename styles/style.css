@@ -35,16 +35,15 @@
     margin-top: 80px;
     
 }
-.logo{
-    width:183px;
-    height:32px;
-    
-}
-.logo_place_header{
+
+.logo_place_style{
     position: absolute;
     display: flex;
     top:30px;
     left:64px;
+    width:183px;
+    height:32px;
+    z-index: 1;
 }
 .title{
     font-size: 102px;
@@ -86,7 +85,6 @@
 }
 
 .main-illustration{
-    background-image: url(../images/two_again.png);
     height:603px;
     width: 756px;
     display:flex;
@@ -176,6 +174,7 @@ justify-content: space-between;
 display: flex;
 flex-direction: column;
 align-items: center;
+
 
 
 }
@@ -272,10 +271,8 @@ font-weight: normal;
 text-align: center;
 display: flex;
 z-index: 2;
-
-
-
 }
+
 .feinman__link{
     
     font-size: 36px;
@@ -284,7 +281,7 @@ z-index: 2;
     text-align: center;
     display: flex;
     position: absolute;
-    
+    color: black;
     right: 48px;
     top:50%;
     z-index: 4;
@@ -292,18 +289,13 @@ z-index: 2;
 
 }
 .feinman__image{
-    background-image: url(../images/feinman.png);
-   height:637px;
+    height:637px;
     width: 867px;
     display:flex;
     object-fit: cover;
     background-size: cover;
     display: flex;
-    z-index: 1;
-
-
-
-}
+    z-index: 1;}
 .feinman_image_place{
     left: 0;
     bottom:0px;
@@ -335,24 +327,22 @@ z-index: 2;
 }
 
 .d_table{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: space-between;
-    margin-bottom: 90px;
+    
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
 width:1100px;
+justify-content: space-between;
 z-index: 1;
 }
 .feinman_table__cell{
-    width: 200px;
+   width: 200px;
  margin-top: 80px;
 
 }
 
     .digits_table__text2{
-        margin-bottom: 0;
+            margin-bottom: 0;
         line-height: 1.2;
         font-size: 18px;
         font-weight: normal;
@@ -381,7 +371,7 @@ z-index: 1;
     
     }
     .digits_subtitle1{
-    margin-bottom: 0px;
+        margin-bottom: 0;
         margin-top:20px;
         line-height: 34px;
         font-size: 24px;
@@ -399,7 +389,8 @@ z-index: 1;
         min-height: 350px;
         background-color: black;
         display:flex;
-        position: relative;
+        
+        
 
         
     }
@@ -424,15 +415,19 @@ z-index: 1;
         
         
     }
-    .logo_footer{
-        background-image: url(../images/logo_white.svg);
-        width: 183px;
-        height: 35px;
+    .logo_place_white{
+        position: relative;
         display: flex;
-       
-
+        top:30px;
+        left:64px;
+        left: 0;
+        top:0;
+        width:183px;
+        height:32px;
+       z-index: 1;
     }
-    .footer_author{
+
+       .footer_author{
    line-height: 25px;
    font-size: 18px;
    font-weight: lighter;
