@@ -33,47 +33,45 @@
     color: white;
     margin-right: 0;
     margin-top: 80px;
+    z-index: 1;
     
 }
-
-.logo_place_style{
+.logo{
     position: absolute;
     display: flex;
     top:30px;
     left:64px;
-    width:183px;
-    height:32px;
     z-index: 1;
 }
-.title{
+.logo_place_header{
+    width: 183px;
+    height: 35px;
+
+}
+
+.header_title{
     font-size: 102px;
     line-height: 96px;
     text-decoration: none;
     width:730px;
     color: #10191E;
-
-}
-.title_place_header{
     display: flex;
     position: absolute;
     margin-left:64px;
     
 }
-.subtitle{
+.header_subtitle{
     font-size: 18px;
     line-height: 25px;
     font-weight: lighter;
     text-decoration: none;
     width:388px;
     color: #10191E;
-
-}
-.subtitle__place_header{
     margin-left:64px;
     bottom: 30px;
     position: absolute;
 }
-.link__position_header {
+.header_link {
     margin:auto;
     font-size: 20px;
     line-height: 25px;
@@ -84,15 +82,12 @@
     position: absolute;
 }
 
-.main-illustration{
+.header_main-illustration{
     height:603px;
     width: 756px;
     display:flex;
     object-fit: cover;
     background-size: cover;
-
-}
-.main-illustration__place_header{
     right: 0;
     bottom:0px;
     position: absolute;
@@ -387,11 +382,10 @@ z-index: 1;
     .footer{
        
         min-height: 350px;
-        background-color: black;
+        background-color: #1f1f1f;
         display:flex;
-        
-        
-
+        justify-content: center;
+         
         
     }
     .footer_columns{
@@ -406,6 +400,10 @@ z-index: 1;
 
     
     }
+    .logo_place_footer {
+        width: 183px;
+        height: 35px;
+    }
     
     .footer_column_copyright{
         flex-basis: 711px;
@@ -414,17 +412,6 @@ z-index: 1;
         justify-content: space-between;
         
         
-    }
-    .logo_place_white{
-        position: relative;
-        display: flex;
-        top:30px;
-        left:64px;
-        left: 0;
-        top:0;
-        width:183px;
-        height:32px;
-       z-index: 1;
     }
 
        .footer_author{
