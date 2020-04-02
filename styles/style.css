@@ -8,9 +8,6 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-.border {
-  border: 1px solid red;
-}
 
 
 /* Header */
@@ -36,12 +33,13 @@
   display: flex;
   top: 30px;
   left: 64px;
-  z-index: 1;
+  z-index: 4;
 }
 .logo_place_header {
   width: 183px;
   height: 32px;
   position: absolute;
+
 }
 .header__square-pic {
   height: 568px;
@@ -52,9 +50,10 @@
   position: absolute;
   right: 0;
   top: 64px;
+  z-index: 0;
 }
 .header__main-illustration {
-  height: 603px;
+  height: 608px;
   width: 756px;
   display:flex;
   object-fit: cover;
@@ -62,6 +61,8 @@
   right: 0;
   bottom: 0;
   position: absolute;
+  z-index: 1;
+
 }
 .header__title {
   font-size: 102px;
@@ -71,6 +72,7 @@
   color: #1f1f1f;
   display: flex;
   margin-left: 64px;
+  z-index: 2;
 }
 .header__subtitle {
   font-size: 18px;
@@ -83,7 +85,7 @@
   right: auto;
   bottom: 30px;
   position: absolute;
-  z-index: 1;
+  z-index: 3;
 }
 .header__link {
   margin: auto;
@@ -93,6 +95,7 @@
   text-decoration: none;
   color: #2f80ed;
   text-decoration: none;
+  z-index:3;
 }
 .header__link:hover {
   color: blue;
@@ -269,6 +272,7 @@
   display: flex;
   z-index: 2;
   margin-top: 70px;
+  z-index: 3;
 }
 .feinman__link {
   font-size: 36px;
@@ -278,11 +282,12 @@
   color: #1f1f1f;
   right: 48px;
   top: 50%;
-  z-index: 4;
   text-decoration:none;
+  z-index: 4;
+
 }
 .feinman__link:hover {
-  color: blue;
+  color: #2f80ed;
 }
 .feinman__image{
   height: 637px;
