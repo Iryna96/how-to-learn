@@ -1,0 +1,10 @@
+@import url(description/description.css);
+@import url(digits/digits.css);
+@import url(feinman/feinman.css);
+@import url(kaufman/kaufman.css);
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} /* и элемента с модификатором вида ключ-значение */

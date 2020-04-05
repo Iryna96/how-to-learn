@@ -1,0 +1,14 @@
+.header__link {
+  margin: auto;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+  text-decoration: none;
+  z-index:3;
+}
+
+.header__link:hover {
+  color: blue;
+}
