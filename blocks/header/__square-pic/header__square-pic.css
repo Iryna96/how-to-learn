@@ -8,4 +8,18 @@
   right: 0;
   top: 64px;
   z-index: 0;
+  -moz-transform: rotate(-15deg); /* Для Firefox */
+  -ms-transform: rotate(-15deg); /* Для IE */
+  -webkit-transform: rotate(-15deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-15deg); /* Для Opera */
+  transform: rotate(-15deg);
+  animation: rotate 20s infinite linear;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
