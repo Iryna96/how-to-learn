@@ -2,8 +2,6 @@
 @import url(./__image/cards__image.css);
 @import url(./__item/cards__item.css);
 @import url(./__title/cards__title.css);
-@import url(/blocks/content/digits/section-title/section-title.css);
-@import url(/blocks/content/digits/section-subtitle/section-subtitle.css);
 
 .cards {
   width: 920px;

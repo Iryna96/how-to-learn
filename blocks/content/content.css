@@ -8,7 +8,7 @@
 @import url(khan/khan.css);
 @import url(techniques/techniques.css);
 
-.content{
+.content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

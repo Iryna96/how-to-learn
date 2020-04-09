@@ -3,9 +3,6 @@
 @import url(../digits/section-title/section-title.css);
 @import url(../digits/section-subtitle/section-subtitle.css);
 
-
-
-
 .resources {
   display: flex;
   flex-direction: column;
@@ -15,6 +12,3 @@
   padding-top: 100px;
   padding-bottom: 217px;
 }
-
-
-

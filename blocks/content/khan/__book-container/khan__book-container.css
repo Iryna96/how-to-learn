@@ -1,9 +1,8 @@
-.khan__book-container{
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-object-fit: cover;
-overflow: hidden;
-padding-bottom: 0;
-
+.khan__book-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  object-fit: cover;
+  overflow: hidden;
+  padding-bottom: 0;
 }
