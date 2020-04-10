@@ -8,10 +8,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
   z-index: 1;
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0px;
 }
