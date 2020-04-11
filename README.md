@@ -4,60 +4,24 @@
 
 # Структура
 ```gitignore 
-how-to-learn
 ├── blocks
+│   ├── cards
+│   │   ├── __description
+│   │   ├── __image
+│   │   ├── __item
+│   │   └── __title
 │   ├── content
-│   │   ├── description
-│   │   │   └── two-columns
-│   │   │       ├── __brief
-│   │   │       ├── __main-text
-│   │   │       ├── __paragraph
-│   │   │       └── __span-accent
-│   │   ├── digits
-│   │   │   ├── section-subtitle
-│   │   │   │   └── _theme_dark
-│   │   │   ├── section-title
-│   │   │   │   └── _theme_dark
-│   │   │   └── table
-│   │   │       ├── __cell
-│   │   │       ├── __cell_theme_dark
-│   │   │       ├── __heading
-│   │   │       ├── __heading_theme_dark
-│   │   │       ├── __text
-│   │   │       ├── __text_theme_dark
-│   │   │       └── _theme_dark
-│   │   ├── feinman
-│   │   │   ├── __image
-│   │   │   ├── __link
-│   │   │   ├── __subtitle
-│   │   │   └── __title
-│   │   ├── kaufman
-│   │   │   └── __triangle
-│   │   ├── khan
-│   │   │   ├── __author
-│   │   │   ├── __book-container
-│   │   │   ├── __book-pic
-│   │   │   ├── __buy-link
-│   │   │   ├── __container
-│   │   │   ├── __quote
-│   │   │   ├── __quote-author
-│   │   │   ├── __quote-author-subline
-│   │   │   └── __title
-│   │   ├── oakley
-│   │   ├── resources
-│   │   │   ├── __logo
-│   │   │   └── __logo-zone
-│   │   ├── techniques
-│   │   │   └── cards
-│   │   │       ├── __description
-│   │   │       ├── __image
-│   │   │       ├── __item
-│   │   │       └── __title
-│   │   └── video
-│   │       ├── __iframe
-│   │       └── __iframes
+│   ├── description
+│   ├── digits
+│   │   └── __heading
+│   ├── feinman
+│   │   ├── __image
+│   │   ├── __link
+│   │   ├── __subtitle
+│   │   └── __title
 │   ├── footer
 │   │   ├── __author
+│   │   ├── __column
 │   │   ├── __column-heading
 │   │   ├── __column-links
 │   │   ├── __column_content_copyright
@@ -65,21 +29,56 @@ how-to-learn
 │   │   ├── __column_content_social
 │   │   ├── __columns
 │   │   └── __social-icon
-│   └── header
-│       ├── __link
-│       ├── __main-illustration
-│       ├── __square-pic
-│       ├── __subtile
-│       ├── __title
-│       └── logo
-│           ├── _place_footer
-│           └── _place_header
+│   ├── header
+│   │   ├── __link
+│   │   ├── __main-illustration
+│   │   ├── __square-pic
+│   │   ├── __subtile
+│   │   └── __title
+│   ├── kaufman
+│   │   └── __triangle
+│   ├── khan
+│   │   ├── __author
+│   │   ├── __book-container
+│   │   ├── __book-pic
+│   │   ├── __buy-link
+│   │   ├── __container
+│   │   ├── __quote
+│   │   ├── __quote-author
+│   │   ├── __quote-author-subline
+│   │   └── __title
+│   ├── link
+│   ├── logo
+│   │   ├── _place_footer
+│   │   └── _place_header
+│   ├── oakley
+│   ├── page
+│   ├── resources
+│   │   ├── __logo
+│   │   └── __logo-zone
+│   ├── rotation
+│   ├── section-subtitle
+│   │   └── _theme_dark
+│   ├── section-title
+│   │   └── _theme_dark
+│   ├── table
+│   │   ├── __cell
+│   │   │   └── _theme_dark
+│   │   ├── __heading
+│   │   │   └── _theme_dark
+│   │   ├── __text
+│   │   │   └── _theme_dark
+│   │   └── _theme_dark
+│   ├── techniques
+│   ├── two-columns
+│   │   ├── __brief
+│   │   ├── __main-text
+│   │   ├── __paragraph
+│   │   └── __span-accent
+│   └── video
+│       ├── __iframe
+│       └── __iframes
 ├── images
-│   ├── sprint-1-sources
-│   └── sprint-2-sources
-│       └── images_sprint-2
-│           └── logo
-├── page
 ├── pages
 └── vendor
 ```
