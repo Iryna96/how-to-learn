@@ -1,16 +1,6 @@
 .footer__column-links {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
   list-style: none;
-  margin: 0;
-	padding-left: 0;
-	text-decoration: none;
-  color: #f2f2f2;
-}
-
-.footer__column-links:hover {
-  color: grey;
-  transition: linear 0.1s;
-  opacity: 0.6;
 }
